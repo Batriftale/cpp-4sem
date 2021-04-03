@@ -20,7 +20,7 @@ int main()
         sregex_iterator{}
         };
 
-    const regex tm(R"(([0-2][0-9])\.([0-5][0-9])\.([0-5][0-9]))");
+    const regex tm(R"([0-1][1-9]|10|[2][0-3])\.([0-5][1-9]|[1-6][0])\.([0-5][1-9]|[1-6][0])");
     const vector<smatch> tms{
         sregex_iterator{C_ALL(data), tm},
         sregex_iterator{}
