@@ -112,21 +112,7 @@ int main()
     getline(inf, strInput);
 
     cout << strInput << endl;
-//#3
-      string strPath;
-    cin >> strPath;
     
-    system("dir");
-
-    auto path = experimental::filesystem::current_path() / "/two.cpp";
-    
-
-    for (auto const & entry : experimental2003
-    ::filesystem::recursive_directory_iterator(path))
-    {
-        cout << entry <<endl;
-    }
-
     return 0;
   
 }
