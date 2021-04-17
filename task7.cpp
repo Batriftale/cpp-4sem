@@ -11,7 +11,7 @@ int main()
 {
     vector<int> vec = {1, 5, 3, 7, 9, 1};
     vector<int>::iterator it;
-
+//#4
 //sorting 
     auto start = chrono::high_resolution_clock::now();
     sort(execution::par, vec.begin(), vec.end());
@@ -55,8 +55,6 @@ int main()
     auto end   = chrono::high_resolution_clock::now();
 
     cout << "time taken for sequenced : " << chrono::duration<float>(end - start).count() << " s" << endl;
-
-
 
 
 }
