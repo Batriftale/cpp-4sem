@@ -25,8 +25,8 @@ int main()
 {
     phone_multi phonebook;
     phonebook.push_back("Nikita", "8(900)0001122");
-    phonebook.push_back("Oleg", "8(900)1112233");
-    phonebook.push_back("Viktor", "8(900)2223344");
+    phonebook.push_back("Oleg", "8(900)0001123");
+    phonebook.push_back("Viktor", "8(900)0001124");
 
     auto& ordered_index = animals.get<0>;
     auto& access_index = animals.get<1>;
